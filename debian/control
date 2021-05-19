@@ -1,0 +1,12 @@
+Source: ros-rolling-rmf-utils
+Section: misc
+Priority: optional
+Maintainer: Grey <grey@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-rolling-ament-cmake-catch2, ros-rolling-rmf-cmake-uncrustify, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rmf-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-ros-workspace
+Description: Simple C++ programming utilities used by Robotics Middleware Framework packages
