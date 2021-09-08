@@ -1,0 +1,12 @@
+Source: ros-foxy-rmf-utils
+Section: misc
+Priority: optional
+Maintainer: Grey <grey@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-foxy-ament-cmake-catch2, ros-foxy-rmf-cmake-uncrustify, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-rmf-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-ros-workspace
+Description: Simple C++ programming utilities used by Robotics Middleware Framework packages
