@@ -1,0 +1,12 @@
+Source: ros-iron-rmf-utils
+Section: misc
+Priority: optional
+Maintainer: Grey <grey@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-iron-ament-cmake-catch2 <!nocheck>, ros-iron-ament-cmake-uncrustify <!nocheck>, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-rmf-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ros-workspace
+Description: Simple C++ programming utilities used by Robotics Middleware Framework packages
