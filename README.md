@@ -1,3 +1,26 @@
+## rmf_utils (humble) - 1.4.1-1
+
+The packages in the `rmf_utils` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble rmf_utils` on `Mon, 05 Jun 2023 09:18:33 -0000`
+
+The `rmf_utils` package was released.
+
+Version of package(s) in repository `rmf_utils`:
+
+- upstream repository: https://github.com/open-rmf/rmf_utils.git
+- release repository: https://github.com/ros2-gbp/rmf_utils-release.git
+- rosdistro version: `1.4.0-2`
+- old version: `1.4.0-2`
+- new version: `1.4.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## rmf_utils (rolling) - 1.4.0-1
 
 The packages in the `rmf_utils` repository were released into the `rolling` distro by running `/usr/bin/bloom-release rmf_utils --ros-distro rolling --track rolling` on `Wed, 06 Apr 2022 14:57:18 -0000`
