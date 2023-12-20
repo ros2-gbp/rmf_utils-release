@@ -2,6 +2,9 @@
 Changelog for package rmf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.5.1 (2023-12-20)
+------------------
+
 1.5.0 (2023-06-06)
 ------------------
 * Switch to rst changelogs (`#28 <https://github.com/open-rmf/rmf_utils/pull/28>`_)
