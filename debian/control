@@ -1,0 +1,12 @@
+Source: ros-jazzy-rmf-utils
+Section: misc
+Priority: optional
+Maintainer: Grey <grey@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake-uncrustify <!nocheck>, cmake, ros-jazzy-ament-cmake-catch2 <!nocheck>, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rmf-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ros-workspace
+Description: Simple C++ programming utilities used by Robotics Middleware Framework packages
