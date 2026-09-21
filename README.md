@@ -1,3 +1,26 @@
+## rmf_utils (lyrical) - 1.8.1-1
+
+The packages in the `rmf_utils` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --rosdistro lyrical --track lyrical --edit-track rmf_utils` on `Mon, 21 Sep 2026 22:44:22 -0000`
+
+The `rmf_utils` package was released.
+
+Version of package(s) in repository `rmf_utils`:
+
+- upstream repository: https://github.com/open-rmf/rmf_utils.git
+- release repository: https://github.com/ros2-gbp/rmf_utils-release.git
+- rosdistro version: `1.8.0-1`
+- old version: `1.8.0-1`
+- new version: `1.8.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.4`
+- catkin_pkg version: `1.1.1`
+- rosdep version: `0.27.0`
+- rosdistro version: `1.1.0`
+- vcstools version: `0.1.42`
+
+
 ## rmf_utils (lyrical) - 1.8.0-1
 
 The packages in the `rmf_utils` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --rosdistro lyrical rmf_utils` on `Mon, 15 Jun 2026 11:21:16 -0000`
